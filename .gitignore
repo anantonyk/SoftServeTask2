@@ -385,3 +385,9 @@ healthchecksdb
 MigrationBackup/
 
 # End of https://www.gitignore.io/api/c++,visualstudio
+
+# remove visual studio service files
+pch.h
+pch.cpp
+**/*.vcxproj
+**/*.vcxproj.*
